@@ -15,9 +15,6 @@ before_script:
 before_install:
   - mysql -e 'CREATE DATABASE realworld_test;'
 
-script:
-  - phpunit
-
 services:
   - mysql
 
